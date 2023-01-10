@@ -1,0 +1,22 @@
+{
+  "brokerIP": "192.168.178.5",
+  "brokerPort": 1883,
+  "hubName": "RPI_HUB1",
+  "brokerUsername": "test",
+  "brokerPassword": "123456",
+  "scanForSeconds": 10.0,
+  "rescanTime": 60,
+  "publishOnlyChanges": true,
+  "devices": [
+    {
+      "bleMacAddress": "de:ea:db:ee:f1:23",
+      "deviceDescription": "LivingRoom",
+      "deviceType": "SB_Meter"
+    },
+        {
+      "bleMacAddress": "de:ea:db:ee:f2:34",
+      "deviceDescription": "Kitchen",
+      "deviceType": "SB_Meter"
+    }
+  ]
+}
